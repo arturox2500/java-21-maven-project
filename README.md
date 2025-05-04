@@ -9,7 +9,7 @@ example, to build a compiler.
 Building happens with `make`, running with `./hello`. The project build process is executed via the
 Maven wrapper which means that you do not need Maven on your machine.
 
-To execute the application, first build the application, then run it.
+To execute the application, first build the application, then run it. 
 
 ```bash
 make
