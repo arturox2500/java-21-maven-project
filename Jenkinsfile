@@ -10,7 +10,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'main', url: 'https://github.com/IvanGutierrrez/PracticeCalidad.git'
+                git branch: 'main', url: 'https://github.com/IvanGutierrrez/java-21-maven-project.git'
 
                 // Run Maven on a Unix agent.
                 // sh "mvn clean package"
