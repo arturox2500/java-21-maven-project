@@ -13,7 +13,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/IvanGutierrrez/java-21-maven-project.git'
 
                 // Run Maven on a Unix agent.
-                // sh "mvn clean package"
+                // sh "mvn clean package" 
 
                 // To run Maven on a Windows agent, use
                 bat "mvn clean package"
